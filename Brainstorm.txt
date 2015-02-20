@@ -1,0 +1,22 @@
+OM1:
+
+Problemas: La gente se aburre, juego muy fácil
+Falta de incentivos para jugar contra IA, muy sencilla
+Fomentar partidas contra IA
+
+Contexto:
+Visión y estrategia:
+	- Centrarse en mantener una experiencia de juego enriquecedora
+	- Crear nuevos desafíos para los jugadores más experimentados
+Factores externos:
+	- Disminución de la base de jugadores
+	- Escasez de nuevos usuarios
+	- Intervalos horarios con cantidades mínimas de jugadores
+	- Competencia con otros juegos en línea
+Valores importantes:
+	- Introducción de nuevos productos para aumentar el valor del producto ofertado
+
+Soluciones:
+	- Mejorar los modos de juegos ya existentes
+	- Campañas de publicidad para atraer nuevos usuarios
+	- Implementar un sistema de IA desafiante para los jugadores más avanzados
