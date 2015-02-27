@@ -20,3 +20,40 @@ Soluciones:
 	- Mejorar los modos de juegos ya existentes
 	- Campañas de publicidad para atraer nuevos usuarios
 	- Implementar un sistema de IA desafiante para los jugadores más avanzados
+
+
+-------------------------------
+
+
+OM2:
+
+
+Estructura:
+	-Equipo de desarrollo
+	-Equipo de diseño
+	-Equipo artístico
+	
+Procesos:
+	-Ver OM3
+
+Personal:
+	-Director
+	-Programador (proveedor y demandante de conocimiento)
+	-Experto IA juegos estrategia (Proveedor de conocimiento)
+	-Gestión de calidad
+		
+Recursos:
+	-Equipamiento y material
+	-Tecnología y patentes (API y licencias)
+
+Conocimiento:
+	-Panel de expertos en el juego
+
+Cultura y Potencial:
+	-Juego cruzado entre equipos de diseño, desarrollo y artístico
+
+
+-------------------------------
+
+
+
