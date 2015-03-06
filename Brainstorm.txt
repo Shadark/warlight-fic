@@ -1,25 +1,25 @@
 OM1:
 
-Problemas: La gente se aburre, juego muy f�cil
+Problemas: La gente se aburre, juego muy fácil
 Falta de incentivos para jugar contra IA, muy sencilla
 Fomentar partidas contra IA
 
 Contexto:
-Visi�n y estrategia:
+Visión y estrategia:
 	- Centrarse en mantener una experiencia de juego enriquecedora
-	- Crear nuevos desaf�os para los jugadores m�s experimentados
+	- Crear nuevos desafíos para los jugadores más experimentados
 Factores externos:
-	- Disminuci�n de la base de jugadores
+	- Disminución de la base de jugadores
 	- Escasez de nuevos usuarios
-	- Intervalos horarios con cantidades m�nimas de jugadores
-	- Competencia con otros juegos en l�nea
+	- Intervalos horarios con cantidades mínimas de jugadores
+	- Competencia con otros juegos en línea
 Valores importantes:
-	- Introducci�n de nuevos productos para aumentar el valor del producto ofertado
+	- Introducción de nuevos productos para aumentar el valor del producto ofertado
 
 Soluciones:
 	- Mejorar los modos de juegos ya existentes
-	- Campa�as de publicidad para atraer nuevos usuarios
-	- Implementar un sistema de IA desafiante para los jugadores m�s avanzados
+	- Campañas de publicidad para atraer nuevos usuarios
+	- Implementar un sistema de IA desafiante para los jugadores más avanzados
 
 
 -------------------------------
@@ -30,8 +30,8 @@ OM2:
 
 Estructura:
 	-Equipo de desarrollo
-	-Equipo de dise�o
-	-Equipo art�stico
+	-Equipo de diseño
+	-Equipo artístico
 	
 Procesos:
 	-Ver OM3
@@ -40,20 +40,27 @@ Personal:
 	-Director
 	-Programador (proveedor y demandante de conocimiento)
 	-Experto IA juegos estrategia (Proveedor de conocimiento)
-	-Gesti�n de calidad
+	-Gestión de calidad
 		
 Recursos:
 	-Equipamiento y material
-	-Tecnolog�a y patentes (API y licencias)
+	-Tecnología y patentes (API y licencias)
 
 Conocimiento:
 	-Panel de expertos en el juego
 
 Cultura y Potencial:
-	-Juego cruzado entre equipos de dise�o, desarrollo y art�stico
+	-Juego cruzado entre equipos de diseño, desarrollo y artístico
 
 
 -------------------------------
+Fase Evaluación mapa -> Experto IA juegos estrategia -> Reglas juego,experiencia, conocimientos estadística->Si->Para ganar la partida todas las tareas son importantes
+Escoger territorio -> Experto IA juegos estrategia -> Reglas juego,experiencia, conocimientos estadística ->Medio
+Evaluación movimiento rival -> Experto IA juegos estrategia -> Reglas juego,experiencia, conocimientos estadística->si 
+Fase refuerzo->Experto IA juegos estrategia  -> Reglas juego,experiencia, conocimientos estadística->si 
+Fase Ataque->Experto IA juegos estrategia -> Reglas juego,experiencia, conocimientos estadística->si 
+Fase Movimiento->Experto IA juegos estrategia -> Reglas juego,experiencia, conocimientos estadística->si w
 
+------------------------------
 
-
+Reglas juego -> Director->todas->
