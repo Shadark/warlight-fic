@@ -63,4 +63,10 @@ Fase Movimiento->Experto IA juegos estrategia -> Reglas juego,experiencia, conoc
 
 ------------------------------
 
-Reglas juego -> Director->todas->
+Reglas juego -> Director->todas->si->No, se necesita en el resto de fases->si->si
+
+Experiencia ->Experto IA->todas->si->si->si->No, es incompleta
+
+Conocimientos estadística->Experto IA->todas->si->si->si->si
+
+------------------------------
