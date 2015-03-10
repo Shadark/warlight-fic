@@ -136,7 +136,7 @@ Departamento de Computación\\ Universidad de A Coruña \\ Curso
 
 %numeros arábigos
 \pagenumbering{arabic} \pagestyle{myheadings} \markboth{Grupo de
-prácticas: xxx}{Modelado Contextual en CommonKADS.}
+prácticas: 1.1}{Modelado Contextual en CommonKADS.}
 
 %indentaciones y espaciado entre párrafos
 \setlength{\parindent}{1,5cm} \setlength{\parskip}{0,7cm}
@@ -212,24 +212,31 @@ Descripción de los aspectos de la organización que tienen impacto y/o se ven afe
 \begin{tabularx}{\textwidth}{|l|X|} \hline
 \textbf{Modelo de Organización} & \textbf{Formulario OM-2: Aspectos Variables} \\ \hline\hline
 
-\textsc{Estructura} & Se presenta un gráfico de la parte de la organización bajo análisis en términos de
-departamentos, grupos, unidades\ldots\\ \hline
-\textsc{Procesos} & Se realiza un diagrama de los procesos que se llevan a cabo. Posteriormente se
-presentará una descomposición de estos procesos en tareas en el formulario OM-3\\ \hline
-\textsc{Personal} &  Se indica qué miembros de la plantilla están implicados en los procesos, como demandantes, destinatarios o proveedores de ese conocimiento. No tienen que ser necesariamente personas físicas, sino que pueden especificarse por el rol
-funcional que desarrollan en la organización (director, secretaria, etc.)\\ \hline
-\textsc{Recursos} &  Describir los recursos utilizados por los procesos:
+\textsc{Estructura} & \begin{itemize}
+	\item Equipo de desarrollo.
+	\item Equipo de diseño.
+	\item Equipo artístico.
+\end{itemize}\\ \hline
+\textsc{Procesos} & Desarrollo de una partida, contiene 5 fases principales:
 \begin{enumerate}
-    \item Sistemas de información y otros recursos computacionales.
-    \item Equipamiento y material.
-    \item Experiencia social o interpersonal que no sea intensiva en conocimiento.
-    \item Tecnología, patentes, etc.
-\end{enumerate}
+	\item Selección de territorios iniciales.
+	\item Análisis de movimientos del rival.
+	\item Fase de refuerzo.
+	\item Fase de ataque.
+	\item Fase de movimiento.
+\end{enumerate}\\ &
+Posteriormente se
+presentará una descomposición de estos procesos en tareas en el formulario OM-3\\ \hline
+\textsc{Personal} & \begin{itemize}
+	\item Director.
+	\item Programador.
+	\item Experto en IA de juegos de estrategia.
+	\item Gestión de la calidad.
+\end{itemize}\\ \hline
+\textsc{Recursos} & Base de datos de comportamiento de jugadores, historial de partidas, reportes de usuarios.
 \\ \hline
-\textsc{Conocimiento} &  Representa un recurso especial explotado en el proceso. Debido a la
-importancia de este aspecto este componente dispone de un formulario aparte (OM-4)\\ \hline
-\textsc{Cultura y Potencial} &  En este apartado se trata de reflejar aquellos \textit{modus operandi} que no están explícitos,
-incluyendo formas de trabajar, de comunicarse y relaciones formales e informales.\\ \hline
+\textsc{Conocimiento} & Panel de expertos en el juego. Se detallará con más precisión en el formulario OM-4.\\ \hline
+\textsc{Cultura y Potencial} & Trabajo cruzado entre equipos de diseño, desarrollo y artístico.\\ \hline
 \end{tabularx}
   \label{tab.OM2}
 \end{table}
@@ -251,11 +258,11 @@ los Procesos}}\\ \hline\hline \textsc{N\textordmasculine} &
 \textsc{Tarea} &  \textsc{Realiza\-da por} &  \textsc{¿Dónde?} &
 \textsc{Recursos de Conocimiento} & \textsc{¿In\-ten\-si\-va en
 Conocimiento?} & \textsc{Im\-por\-tan\-cia} \\
-\hline Id. & Nombre \emph{(partes de los procesos descritos en OM-2)}& Agente
-humano/ soft\-wa\-re \emph{(per\-so\-nal/re\-cur\-sos de OM-2)} &
-Localización en la estructura \emph{(\textit{véase} OM-2)} & Nombre \emph{(Se
-detalla en OM-4)} & (sí o no) & \emph{(usando un criterio definido
-por el Ingeniero de Conocimiento, por ejemplo escala 1--5)} \\ \hline
+\hline 1 & Escoger territorio & Experto en IA de juegos de estrategia & & Reglas de juego, experiencia, conocimientos de estadística & Sí & Alta \\ \hline
+2 & Análisis de movimientos del rival & Experto en IA de juegos de estrategia & & Reglas de juego, experiencia, conocimientos de estadística & Sí & Media \\ \hline
+3 & Fase de refuerzo & Experto en IA de juegos de estrategia & & Reglas de juego, experiencia, conocimientos de estadística & Sí & Media \\ \hline
+4 & Fase de ataque & Experto en IA de juegos de estrategia & & Reglas de juego, experiencia, conocimientos de estadística & Sí & Media \\ \hline
+5 & Fase de movimiento & Experto en IA de juegos de estrategia & & Reglas de juego, experiencia, conocimientos de estadística & Sí & Media \\ \hline
 \end{tabularx}
 \label{tab.OM3}
 \end{table}
@@ -274,8 +281,12 @@ Descripción del componente \textit{conocimiento} del modelo de la organización.
 \multicolumn{3}{|l}{\textbf{Modelo de Organización}} & \multicolumn{4}{|l|}{\textbf{Formulario OM-4: Activos de Conocimiento}} \\ \hline\hline
 \textsc{Recurso de Conocimiento} & \textsc{Pertenece a} &  \textsc{Usado en} &  \textsc{¿Forma
 Correcta?} & \textsc{¿Lugar Correcto?} & \textsc{¿Tiempo Correcto?} & \textsc{¿Calidad Correcta?}\\ \hline
-Nombre \emph{(\textit{véase} OM-3)} & Agente \emph{(\textit{véase} OM-3)}& Tarea \emph{(\textit{véase} OM-3)}& (si o no; comentario)&
-(si o no; comentario)& (si o no; comentario)& (si o no; comentario)\\ \hline
+Reglas de juego & Director & Todas las tareas & Sí &
+No, no se utiliza en el resto de fases & Sí & Sí\\ \hline
+Ex\-pe\-rien\-cia & Experto en IA & Todas las tareas & Sí &
+Sí & Sí & No, es incompleta\\ \hline
+Co\-no\-ci\-mien\-tos de estadística & Experto en IA & Todas las tareas & Sí &
+Sí & Sí & Sí\\ \hline
 \end{tabularx}
 
   \label{tab.OM4}
