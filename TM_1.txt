@@ -1,0 +1,67 @@
+Tarea:			Escoger territorios
+Meta/valor:		Intenta evaluar las diferentes opciones y estrategias dependiendo del mapa y escoger los territorios.
+Objetivo y valor:	Importancia alta , un buen despliegue determinara el devenir de la partida.
+Dependencia y flujo:	Tareas de salida: Evaluacion movimiento rival, fase refuerzo.
+Tiempo y control:	Frecuencia:Varias veces al principio de la partida dependiente del tamaño del mapa.
+			Duracion:1 minuto por territorio
+			Restricciones:El motor del juego elige un territorio por super region y solamente se podra escoger 
+			ese dentro de esa super region, ademas no se podran escoger territorios ya ocupados.
+Agentes:		Experto IA juegos
+Conoc. y competencias:	Reglas del juego, eperiencia, conocimiento estadistico.
+Recursos:		Mapa, territorios, tropas.
+Calidad y eficiencia:	Vencer al rival indicara su calidad y eficiencia.
+
+
+Tarea:			Evaluacion movimiento rival
+Meta/valor:		El objetivo es evaluar los movimientos del rival para realizar los nuestros en consecuencia.
+Objetivo y valor:	Muy importante, sus movimientos influenciaran en los nuestros.
+Dependencia y flujo:	Tareas entrada:Fase evaluacion mapa o fase movimiento
+			Tareas salida :Fase refuerzo
+Tiempo y control:	Frecuencia: En cada turno
+Agentes:		Experto IA juegos
+Conoc. y competencias:	Reglas del juego, eperiencia, conocimiento estadistico.
+Recursos:		Mapa, territorios.
+Calidad y eficiencia:	Vencer al rival indicara su calidad y eficiencia.
+
+
+Tarea:			Fase refuerzo
+Meta/valor:		El objetivo es reforzar los territorios segun la cantidad de tropas disponibles. 
+Objetivo y valor:	Es muy importante reforzar los territorios necesarios.
+Dependencia y flujo:	Tareas entrada:Evaluacion movimiento rival.
+			Tareas salida: Fase ataque, fase movimiento.
+Tiempo y control:	Frecuencia: En cada turno.
+			Restricciones: Numero limitado de refuerzos.
+Agentes:		Experto IA juegos
+Conoc. y competencias:	Reglas del juego, eperiencia, conocimiento estadistico.
+Recursos:		Mapa, territorios, tropas.
+Calidad y eficiencia:	Vencer al rival indicara su calidad y eficiencia.
+
+
+
+Tarea:			Fase ataque
+Meta/valor:		El objetivo es usar las tropas lo mas eficientemente posible para atacar al rival.	
+Objetivo y valor:	Apoderarse de territorios rivales o neutrales. 
+Dependencia y flujo:	Tareas entrada:Fase refuerzo.
+			Tareas salida: Evaluacion movimiento rival
+Tiempo y control:	Frecuencia: En cada turno.
+			Restricciones: Dejar minimo 1 tropa por territorio, atacar provincias colindantes.
+Agentes:		Experto IA juegos
+Conoc. y competencias:	Reglas del juego, eperiencia, conocimiento estadistico.
+Recursos:		Mapa, territorios, tropas.
+Calidad y eficiencia:	Vencer al rival indicara su calidad y eficiencia.
+
+
+
+Tarea:			Fase movimiento
+Meta/valor:		El objetivo es mover las tropas hacia lugares mas eficientes.	
+Objetivo y valor:	Limitar movimiento rival, estrategias de ataque o defensa. 
+Dependencia y flujo:	Tareas entrada:Fase refuerzo.
+			Tareas salida: Evaluacion movimiento rival
+Tiempo y control:	Frecuencia: En cada turno.
+			Restricciones: Dejar minimo 1 tropa por territorio, movimiento a provincias colindantes.
+Agentes:		Experto IA juegos
+Conoc. y competencias:	Reglas del juego, eperiencia, conocimiento estadistico.
+Recursos:		Mapa, territorios, tropas.
+Calidad y eficiencia:	Vencer al rival indicara su calidad y eficiencia.
+
+
