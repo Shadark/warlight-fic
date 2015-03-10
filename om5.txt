@@ -1,0 +1,20 @@
+OM5 - Implementar IA más avanzada
+
+Viabilidad empresarial:
+
+La implementación de una IA más avanzada revierte en una mejora del servicio además de nuevos retos para los jugadores más experimentados. Esta mejora es crítica para la continuidad de la empresa debido a la dificultad para mantener jugadores sin una motivación suficiente. Además para la implementación de los cambios no es necesario llevar a cabo ningún cambio organizacional.
+
+
+Viabilidad técnica:
+
+El requisito más importante para la implementación de la IA es que tenga la calidad suficiente como para suponer un reto a los jugadores experimentados. Debido a esto, el éxito del proyecto será determinado mediante pruebas contra jugadores experimentados. Debido a que la nueva implementación tomará el lugar de una IA básica ya implmentada, no se requiere que la interfaz de usuario cambie mientras la nueva versión interactúe con la API actual del juego.
+
+
+Viabilidad del proyecto:
+
+Están disponibles todos los recursos necesarios para el proyecto así como el conocimiento y las capacidads. Además existe un compromiso total por parte del equipo de desarrollo. La organización adecuada y unas expectativas realistas minimizan los riesgos relacionados con el proyecto.
+
+
+Acciones Propuestas:
+
+Debido a que se trata de una mejora de una implementación ya existente, se reduce el número de decisiones que se pueden tomar. Los resultados, costes y beneficios para una nueva IA son razonables.
