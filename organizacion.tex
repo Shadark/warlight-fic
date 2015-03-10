@@ -337,54 +337,132 @@ Descripción detallada de tareas en el contexto del proceso de interés.
 \begin{tabularx}{\textwidth}{|l|X|} \hline
 
 \textbf{Modelo de Tareas} & \textbf{Formulario TM-1: Análisis de Tareas} \\ \hline\hline
-\textsc{Tarea} & Identificador (N\textordmasculine) y nombre de tarea \emph{(Ref. OM-3)}\\ \hline
-\textsc{Organización}  & Proceso del que esta tarea forma parte, y
-parte de la organización donde se desarrolla \emph{(Ref. OM-3)}.\\ \hline
-\textsc{Objetivo y valor} &  Objetivo de la tarea y el valor que añade al proceso
-del que forma parte cuando es ejecutada.\\ \hline
-\textsc{Dependencia y Flujos} & \textit{1. Tareas precedentes:} Tareas que se ejecutan antes que esta tarea y le
-proporcionan las entradas.\\
- &  \textit{2. Tareas que le siguen:} Tareas que se ejecutan después de esta tarea y que utilizan
-algunas de sus salidas como entradas. \\ \hline
-\textsc{Objetos manipulados} & 1. Objetos de entrada de la tarea.\\
-  &  2. Objetos de salida de la tarea.\\
-  &  3. Objetos internos: Objetos importantes (si los hay) internos a la tarea y que no
-son parte de la entrada y de la salida. \\
-& \emph{Todos estos objetos incluyen elementos de información y conocimiento.}
-\\ \hline
-\textsc{Tiempo y control} & \textit{1. Frecuencia y duración:} cada cuánto tiempo se ejecuta la tarea y cuánto tiempo
-consume normalmente.\\
-& \textit{2. Control:} Relación de control con respecto a otras tareas.\\
-& \textit{3. Restricciones:} Precondiciones y poscondiciones de la tarea,
-y restricciones que deben ser satisfechas durante su ejecución.
+\textsc{Tarea} & 1.Escoger territorios \\ \hline
+\textsc{Objetivo y valor} &  Intenta evaluar las diferentes opciones y estrategias dependiendo del mapa y escoge los territorios mas adecuados.\\ \hline
+\textsc{Dependencia y Flujos} & \textit{Tareas de salida:Evaluacion movimiento rival,fase refuerzo.}\\ \hline
+\textsc{Tiempo y control} & \textit{Frecuencia:} Varias veces al principio de la partida dependiendo del tamaño del mapa.\\
+& \textit{Duración:} 1 minuto por territorio\\
+& \textit{Restricciones:} El motor del juego elige un territorio por super region y solamente se podra escoger ese territorio dentro de esa region, ademas no se podran escoger territorios ya ocupados.
 \\ \hline
 \textsc{Agentes} &
-El personal y/o los sistemas de información que son
-responsables de llevar a cabo la tarea \emph{(Referencia a OM-2:
-Personal, recursos; OM-3: ejecutada por)}.\\ \hline
+Experto IA juegos\\ \hline
 \textsc{Conocimiento y
 Capacidad} &
-Capacidades necesarias para el desarrollo de la tarea \emph{(Referencia a OM-4)}. Para
-especificar los elementos de conocimiento implicados se utiliza un formulario adicional (TM-2).
-También se deben indicar otras habilidades y capacidades
-requeridas e indicar qué parte de la tarea es intensiva en
-conocimiento. Finalmente, se deben indicar las capacidades
-que las tareas proporcionan a la organización. \\ \hline
+Reglas del juego, experiencia, conocimiento estadistico. \\ \hline
 \textsc{Recursos} &
-Se describen \emph{(Refinamiento de OM-2)} y, si se puede, se cuantifican los recursos
-requeridos por la tarea (personal, sistemas y equipamiento,
-materiales, partidas presupuestarias, etc.). \\ \hline
+Mapa, territorios, tropas. \\ \hline
 \textsc{Calidad y eficiencia} &
-Enumerar las medidas de calidad y eficiencia que utiliza la
-organización para determinar la ejecución exitosa de la
-tarea.
+Vencer a los rivales indicara el grado de calidad y eficiencia.
 \\ \hline
 \end{tabularx}
+
+\begin{table}[H]
+	\scriptsize
+\begin{tabularx}{\textwidth}{|l|X|} \hline
+		
+		\textbf{Modelo de Tareas} & \textbf{Formulario TM-1: Análisis de Tareas} \\ \hline\hline
+		\textsc{Tarea} & 2.Evaluacion movimiento rival \\ \hline
+		\textsc{Objetivo y valor} &  Evaluar los moimientos del rival para realizar los nuestros en consecuencia de lo observado.\\ \hline
+		\textsc{Dependencia y Flujos} & \textit{Tareas de entrada: Fase evaluacion mapa o fase movimiento.}\\
+		& \textit {Tareas de salida: Fase refuerzo.}\\ \hline
+		\textsc{Tiempo y control} & \textit{Frecuencia:} En cada turno.\\ \hline
+		\textsc{Agentes} &
+		Experto IA juegos\\ \hline
+		\textsc{Conocimiento y
+			Capacidad} &
+		Reglas del juego, experiencia, conocimiento estadistico. \\ \hline
+		\textsc{Recursos} &
+		Mapa, territorios. \\ \hline
+		\textsc{Calidad y eficiencia} &
+		Vencer a los rivales indicara el grado de calidad y eficiencia.
+		\\ \hline
+\end{tabularx}
+
+\begin{table}[H]
+	\scriptsize
+\begin{tabularx}{\textwidth}{|l|X|} \hline
+		
+		\textbf{Modelo de Tareas} & \textbf{Formulario TM-1: Análisis de Tareas} \\ \hline\hline
+		\textsc{Tarea} & 3.Fase refuerzo \\ \hline
+		\textsc{Objetivo y valor} &  El objetivo es reforzar los territorios segun la cantidad de tropas disponibles.\\ \hline
+		\textsc{Dependencia y Flujos} & \textit{Tareas de entrada: Evaluacion movimiento rival.}\\
+		& \textit {Tareas de salida: Fase ataque, fase movimiento.}\\ \hline
+		\textsc{Tiempo y control} & \textit{Frecuencia:} En cada turno.\\
+		& \textit{Restricciones:}Numero limitado de refuerzos\\ \hline
+		\textsc{Agentes} &
+		Experto IA juegos\\ \hline
+		\textsc{Conocimiento y
+			Capacidad} &
+		Reglas del juego, experiencia, conocimiento estadistico. \\ \hline
+		\textsc{Recursos} &
+		Mapa, territorios,tropas. \\ \hline
+		\textsc{Calidad y eficiencia} &
+		Vencer a los rivales indicara el grado de calidad y eficiencia.
+		\\ \hline
+\end{tabularx}	
+
+\begin{table}[H]
+	\scriptsize
+\begin{tabularx}{\textwidth}{|l|X|} \hline
+		
+		\textbf{Modelo de Tareas} & \textbf{Formulario TM-1: Análisis de Tareas} \\ \hline\hline
+		\textsc{Tarea} & 4.Fase ataque \\ \hline
+		\textsc{Objetivo y valor} &  El objetivo es usar las tropas para conseguir nuevos territorios y para debilitar al rival.\\ \hline
+		\textsc{Dependencia y Flujos} & \textit{Tareas de entrada: Fase refuerzo.}\\
+		& \textit {Tareas de salida: Evaluazion movimiento rival.}\\ \hline
+		\textsc{Tiempo y control} & \textit{Frecuencia:} En cada turno.\\
+		& \textit{Restricciones:} Dejar minimo una tropa por territorio, atacar provincias colindantes.\\ \hline
+		\textsc{Agentes} &
+		Experto IA juegos\\ \hline
+		\textsc{Conocimiento y
+			Capacidad} &
+		Reglas del juego, experiencia, conocimiento estadistico. \\ \hline
+		\textsc{Recursos} &
+		Mapa, territorios,tropas. \\ \hline
+		\textsc{Calidad y eficiencia} &
+		Vencer a los rivales indicara el grado de calidad y eficiencia.
+		\\ \hline
+\end{tabularx}	
+
+\begin{table}[H]
+	\scriptsize
+\begin{tabularx}{\textwidth}{|l|X|} \hline
+		
+		\textbf{Modelo de Tareas} & \textbf{Formulario TM-1: Análisis de Tareas} \\ \hline\hline
+		\textsc{Tarea} & 5.Fase movimiento \\ \hline
+		\textsc{Objetivo y valor} &  El objetivo es mover las tropas hacia lugares mas eficientes.\\ \hline
+		\textsc{Dependencia y Flujos} & \textit{Tareas de entrada: Fase refuerzo.}\\
+		& \textit {Tareas de salida: Evaluazion movimiento rival.}\\ \hline
+		\textsc{Tiempo y control} & \textit{Frecuencia:} En cada turno.\\
+		& \textit{Restricciones:} Dejar minimo una tropa por territorio, movimiento provincias colindantes.\\ \hline
+		\textsc{Agentes} &
+		Experto IA juegos\\ \hline
+		\textsc{Conocimiento y
+			Capacidad} &
+		Reglas del juego, experiencia, conocimiento estadistico. \\ \hline
+		\textsc{Recursos} &
+		Mapa, territorios,tropas. \\ \hline
+		\textsc{Calidad y eficiencia} &
+		Vencer a los rivales indicara el grado de calidad y eficiencia.
+		\\ \hline
+\end{tabularx}	
+	
+	
+	\label{tab.TM1}
+\end{table}	
+	
+	
+	\label{tab.TM1}
+\end{table}	
 
   \label{tab.TM1}
 \end{table}
 
+\label{tab.TM1}
+\end{table}
 
+\label{tab.TM1}
+\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Formulario TM-2: análisis de los cuellos de botella del conocimiento.}
