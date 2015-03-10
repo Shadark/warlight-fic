@@ -1,0 +1,65 @@
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusiones del análisis de viabilidad e impacto.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Formulario OTA-1: recomendaciones y acciones.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Lista de control para el documento de toma de decisiones sobre impactos y mejoras.
+
+
+\begin{table}[H]
+\scriptsize
+\begin{tabularx}{\textwidth}{|p{4cm}|X|} \hline
+\textbf{Modelos de Organización, Tareas y Agentes} &
+\textbf{Formulario OTA-1: Documento sobre Impactos y Mejoras}\\
+\hline\hline \textsc{Impactos y Cambios en la Organización} &
+Describir los impactos y los cambios que el SBC traerá a la
+organización, comparándola con la estructura organizativa actual
+\emph{(descrita en OM-2)}, y con cómo será dicha organización en
+el futuro. Esta descripción se realizará de forma global para los
+seis aspectos variables descritos en OM-2.
+ \\ \hline
+\textsc{Impactos y Cambios en Tareas y Agentes} & Describir los
+impactos y los cambios que el SBC introducirá en los agentes y las
+tareas, comparándolos con la situación actual \emph{(descrita en
+TM-1/2 y AM-1)}. Es importante que no sólo se considere al
+personal implicado en una determinada tarea, sino también a otros
+agentes y poseedores de conocimiento (gestores, usuarios,
+clientes): \\
+& 1. Cambios en la estructura de las tareas (flujo, dependencias,
+objetos manipulados, temporización, control). \\
+& 2. Cambios en los recursos necesarios. \\
+& 3. Criterios para evaluar la calidad y el rendimiento.\\
+& 4. Cambios en la plantilla y en los agentes implicados.\\
+& 5. Cambios en las posiciones, responsabilidades, autoridad y limitaciones de los
+individuos implicados en la ejecución de la tarea.\\
+& 6. Cambios en el conocimiento y capacidad requeridos.\\
+& 7. Cambios en los canales de comunicación.\\
+\hline
+\textsc{Actitudes y Compromisos} &  Analizar cómo reaccionarán a
+los cambios introducidos los individuos y el personal cualificado
+involucrado, y decidir si existe la base suficiente para llevar a
+cabo dichos cambios.
+ \\ \hline
+\textsc{Acciones Propuestas} &  Apartado directamente relacionado
+con los acuerdos de gestión y la toma de decisiones. Los
+resultados obtenidos con el análisis previo se valoran e integran
+en un plan de actuación concreto: \\
+& \textit{1. Mejoras:} ¿Cuáles son los cambios recomendados (organización, tareas, personal, sistemas\ldots)?\\
+& \textit{2. Medidas adicionales:} ¿Qué medidas hay que tomar para facilitar dichos cambios? (formación,
+facilidades\ldots)\\
+& \textit{3. Acciones del proyecto:} ¿Cuál es la siguiente acción a realizar dentro del proyecto respecto a la
+solución basada en el conocimiento asumida?\\
+& \textit{4. Resultados, costes y beneficios esperados} \emph{(referencia a OM-5)}.\\
+& 5. Si las circunstancias que rodean a la organización cambian (tanto externas como
+internas), ¿en qué condiciones es apropiado reconsiderar las
+decisiones tomadas? \\ \hline
+
+\end{tabularx}
+  \label{tab.OTA1}
+\end{table}
