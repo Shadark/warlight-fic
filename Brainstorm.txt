@@ -70,3 +70,25 @@ Experiencia ->Experto IA->todas->si->si->si->No, es incompleta
 Conocimientos estadística->Experto IA->todas->si->si->si->si
 
 ------------------------------
+
+Reglas de juego->Director->todas->Diseño videojuegos
+
+Formal,Riguroso/Altamente especializado,específico de dominio
+
+Papel -> Si, mejorable
+Mental
+
+
+Experiencia->Experto IA->todas->IA videojuegos
+
+Empirico,cuantitativo/Altamente especializado...->si/Basado en la experiencia/Incompleto/Incierto,pude ser incorrecto->Si/Difícil de verificar/Tácito, difícil de transferir
+
+Mental
+Habilidades->si
+
+Conocimientos Estadística->Experto IA->todas->matemáticas
+
+Formal,riguroso
+
+Mental
+Habilidades->si
